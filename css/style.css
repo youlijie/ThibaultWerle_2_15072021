@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    margin-left: 10px;
+}
+
+body {
+    margin-left: 40px;
 }
 
 p {
@@ -10,6 +13,8 @@ p {
 
 header img {
     width: 5%;
+    padding-top: 20px;
+    padding-left: 0%;
 }
 
 .topnav {
@@ -24,11 +29,89 @@ header img {
     overflow: hidden;
 }
 
-header a {
+.nava {
     margin: 10px;
     overflow: hidden;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
-header a:hover {
-    border-top: 3px blue solid;
+.entetet {
+    margin-bottom: 0px;
+}
+
+.entete {
+    margin-top: 0px;
+}
+
+.iplace {
+    background-color: #F2F2F2;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 25%;
+}
+
+form input {
+    border: none;
+    font-weight: bold;
+}
+
+form input:focus {
+    outline: none;
+}
+
+.recherche {
+    background-color: #0065FC;
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 12px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+.pfiltre {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.filtre {
+    display: block;
+    width: 100%;
+}
+
+.filtre i {
+    color: #0065FC;
+}
+
+.ifiltre {
+    background-color: #DEEBFF;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.linkf {
+    font-weight: bold;
+    font-size: smaller;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 8px;
+}
+
+.allfiltre {
+    display: inline-block;
 }
