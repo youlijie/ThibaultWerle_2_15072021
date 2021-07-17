@@ -11,8 +11,9 @@ p {
     font-size: small;
 }
 
-header img {
-    width: 5%;
+.logo {
+    width: 80px;
+    height: 60px;
     padding-top: 20px;
     padding-left: 0%;
 }
@@ -52,6 +53,10 @@ header img {
     border-top-left-radius: 25%;
 }
 
+form {
+    padding-top: 20px;
+}
+
 form input {
     border: none;
     font-weight: bold;
@@ -87,6 +92,7 @@ form input:focus {
 .filtre {
     display: block;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .filtre i {
@@ -97,10 +103,12 @@ form input:focus {
     background-color: #DEEBFF;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
-    padding: 10px;
+    padding: 12px;
 }
 
 .linkf {
+    position: relative;
+    left: 15px;
     font-weight: bold;
     font-size: smaller;
     text-decoration: none;
@@ -109,9 +117,92 @@ form input:focus {
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-    padding: 8px;
+    padding: 8px 20px 8px 15px;
 }
 
 .allfiltre {
     display: inline-block;
+}
+
+.allfiltre i {
+    position: relative;
+    left: 29px;
+}
+
+.tinfo i, p {
+    display: inline-block;
+}
+.tinfo i {
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 50px;
+    padding: 0.5em 0.6em;
+    color: #0065FC;
+    font-size: xx-small;
+}
+
+.tinfo p {
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+.place {
+    background-color: #F2F2F2;
+    width: 65%;
+    height: 500px;
+}
+
+.titlecont {
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+.placecard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: auto;
+    align-content: start
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 230px;
+    flex: 0 0 auto;
+}
+  
+img {
+    border-radius: 5px 5px 0 0;
+    width: 230px;
+    height: 100px;
+}
+
+.container {
+    margin: 0px 0px 0px 15px;
+}
+
+.container h4, p {
+    margin: 0px;
+}
+
+.mpopular {
+    background-color: #F2F2F2;
+    width: 35%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.activity {
+    background-color: #F2F2F2;
+}
+
+.mainsite {
+    display: flex;
 }
