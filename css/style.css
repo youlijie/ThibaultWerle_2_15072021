@@ -149,13 +149,15 @@ form input:focus {
 .place {
     background-color: #F2F2F2;
     width: 65%;
-    height: 500px;
+    height: 550px;
+    border-radius: 15px;
 }
 
 .titlecont {
-    display: block;
-    margin-left: 40px;
+    display: inline-block;
+    margin-left: 30px;
     margin-bottom: 0px;
+    padding-top: 20px;
 }
 
 .placecard {
@@ -167,42 +169,102 @@ form input:focus {
     align-content: start
 }
 
-.card {
+.cardh {
+    background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     width: 230px;
     flex: 0 0 auto;
 }
   
-img {
+.imgh {
     border-radius: 5px 5px 0 0;
     width: 230px;
     height: 100px;
+    object-fit: cover;
 }
 
-.container {
+.containerh {
     margin: 0px 0px 0px 15px;
 }
 
-.container h4, p {
+.containerh h4, p {
     margin: 0px;
 }
 
 .mpopular {
     background-color: #F2F2F2;
+    border-radius: 15px;
     width: 35%;
+    height: 550px;
     margin-left: 40px;
     margin-right: 40px;
 }
 
-.activity {
-    background-color: #F2F2F2;
+.iconmp {
+    margin-left: 170px;
+}
+
+.placecardmp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardmp {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imgmp {
+    border-radius: 5px 0 0 5px;
+    width: 115px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.containermp {
+    margin: 0px 0px 0px 20px;
+}
+
+.containermp h4 {
+    margin: 10px 0 5px 0;
+}
+
+.oline {
+    margin-bottom: 50px;
+}
+
+.tline {
+    margin-bottom: 35px;
+}
+
+.rating {
+    color: #0065FC;
+    padding-bottom: 5px;
+}
+
+.ratingmp {
+    
 }
 
 .mainsite {
     display: flex;
+}
+
+.activity {
+    background-color: #F2F2F2;
 }
