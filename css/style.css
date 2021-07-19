@@ -3,7 +3,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-body {
+header, main {
     margin-left: 40px;
 }
 
@@ -31,10 +31,39 @@ p {
 }
 
 .nava {
-    margin: 10px;
-    overflow: hidden;
-    padding-right: 20px;
-    padding-top: 20px;
+    margin: 30px 60px 10px 10px;
+}
+
+.heb {
+    text-decoration: none;
+    color: black;
+}
+
+.heb:hover {
+    color: #0065FC;
+    font-weight: 500;
+    border-top: 1px solid #0065FC;
+}
+
+.act {
+    text-decoration: none;
+    color: black;
+}
+
+.act:hover {
+    color: #0065FC;
+    font-weight: 500;
+    border-top: 1px solid #0065FC;
+}
+
+.insc {
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.insc:hover {
+    border-top: 1px solid #0065FC;
 }
 
 .entetet {
@@ -129,6 +158,11 @@ form input:focus {
     left: 29px;
 }
 
+.allfiltre a:hover {
+    background-color: #0065FC;
+    color: white;
+}
+
 .tinfo i, p {
     display: inline-block;
 }
@@ -182,7 +216,7 @@ form input:focus {
 }
   
 .imgh {
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px 15px 0 0;
     width: 230px;
     height: 100px;
     object-fit: cover;
@@ -190,10 +224,12 @@ form input:focus {
 
 .containerh {
     margin: 0px 0px 0px 15px;
+    height: 70px;
 }
 
 .containerh h4, p {
     margin: 0px;
+    padding-top: 5px;
 }
 
 .mpopular {
@@ -222,17 +258,21 @@ form input:focus {
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
     width: 350px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.imgmp {
-    border-radius: 5px 0 0 5px;
-    width: 115px;
+.cardmpa {
+    margin-top: 20px;
     height: 130px;
+}
+
+.imgmp {
+    border-radius: 15px 0 0 15px;
+    width: 115px;
+    height: 132px;
     object-fit: cover;
 }
 
@@ -257,14 +297,160 @@ form input:focus {
     padding-bottom: 5px;
 }
 
-.ratingmp {
-    
-}
-
 .mainsite {
     display: flex;
 }
 
-.activity {
+.activity h1 {
+    padding-top: 40px;
+}
+
+.activitypic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    gap: 40px;
+    margin-right: 40px;
+    grid-template-areas: 
+        "vp fp pnc ndg"
+        "vp if pnc pl";
+}
+
+.vp {
+    grid-area: vp;
+}
+
+.vp img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.fp {
+    grid-area: fp;
+}
+
+.fp img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.pnc {
+    grid-area: pnc;
+}
+
+.pnc img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.ndg {
+    grid-area: ndg;
+}
+
+.ndg img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.if {
+    grid-area: if;
+}
+
+.if img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.pl {
+    grid-area: pl;
+}
+
+.pl img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.carda {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.carda1col {
+    margin: 0px 0px 0px 15px;
+    height: 45px;
+}
+
+.carda1col h4 {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.carda2col {
+    margin: 0px 0px 0px 15px;
+    height: 45px;
+}
+
+.carda2col h4 {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+footer{
     background-color: #F2F2F2;
+}
+
+.flexfooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    margin-top: 60px;
+}
+
+.flexfooter h4 {
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+}
+
+.flexfooter h3 {
+    margin-top: 30px;
+}
+
+.flexfooter1 {
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.flexfooter2 {
+    display: block;
+}
+
+.flexfooter3 {
+    display: block;
+    margin-right: 200px;
+}
+
+.mpopular a {
+    text-decoration: none;
+}
+
+.activity a {
+    text-decoration: none;
+    color: black;
+}
+
+.cardh {
+    text-decoration: none;
+    color: black;
 }
