@@ -22,12 +22,10 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
 }    
 
 .nav {
     display: flex;
-    overflow: hidden;
 }
 
 .nava {
@@ -453,4 +451,329 @@ footer{
 .cardh {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 1208px) {
+    
+    header, main {
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    
+    .mainsite {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .place {
+        background-color: #F2F2F2;
+        width: 100%;
+        height: 550px;
+    }
+    
+    .mpopular {
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1125px)  {
+    
+    .mpopular {
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    
+    .mpopular {
+        height: 900px;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+
+    .placecardmp {
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .cardmp {
+        width: 600px;
+    }
+
+    .cardmpa {
+        margin-top: 110px;
+    }
+    
+    .imgmp {
+        width: 40%;
+        height: 220px;
+    }
+
+    .containermp {
+        margin: 40px
+    }
+    
+    .flexfooter1 {
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .flexfooter2 {
+        margin-left: 0px;
+    }
+    
+    .flexfooter3 {
+        margin-right: 40px;
+    }
+
+    .carda1col h4 {
+        padding-top: 3px;
+    }
+    
+    .carda2col h4 {
+        padding-top: 3px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    main {
+        margin: 0px;
+    }
+    
+    .filtreflex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: auto;
+        align-content: start;
+        margin-top: 20px;
+    }
+    
+    .place {
+        background-color: white;
+        height: auto;
+    }
+    
+    .placecard {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .cardh {
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 500px;
+    }
+      
+    .imgh {
+        border-radius: 15px 15px 0 0;
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .activitypic {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .carda {
+        width: 500px;
+    }
+    
+    .vp img {
+        width: 500px;
+        height: 150px;
+    }
+    
+    
+    .fp img {
+        width: 500px;
+        height: 150px;
+    }
+    
+    .pnc img {
+        width: 500px;
+        height: 150px;
+    }
+
+    .ndg img {
+        width: 500px;
+        height: 150px;
+    }
+    
+    .if img {
+        width: 500px;
+        height: 150px;
+    }
+    
+    .pl img {
+        width: 500px;
+        height: 150px;
+    }
+
+    .activity h1 {
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    .mpopular {
+        width: 697px;
+        height: 900px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 697px) {
+    
+    .mpopular {
+        width: auto;
+    }
+
+    .placecardmp {
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+        
+    .cardmp {
+        max-width: 100%;
+        height: 150px;
+    }
+
+    .imgmp {
+        max-width: 40%;
+        height: 150px;
+    }
+
+    .containermp {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 623px) {
+    
+    .topnav {
+        display: block;
+    }
+    
+    .nav a {
+        display: block;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .insc {
+        position: absolute;
+        left: 78%;
+        top: 10px;
+    }
+
+    .heb:hover {
+        border-top: 0px solid #0065FC;
+        border-bottom: 1px solid #0065FC;
+    }
+    
+    .act:hover {
+        border-top: 0px solid #0065FC;
+        border-bottom: 1px solid #0065FC;
+    }
+
+    .flexfooter {
+        flex-direction: column;
+    }
+
+    .flexfooter1 {
+        margin-bottom: 0px;
+    }
+
+    .flexfooter2 {
+        margin-left: 40px;
+    }
+
+    .flexfooter3 {
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 643px) {
+    
+    .activitypic {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    
+    header  {
+        margin: 15px;
+    }
+    
+    .cardmp {
+        width: 300px;
+    }
+
+    .imgmp {
+        width: 300px;
+    }
+
+    .containermp {
+        margin: auto;
+    }
+
+    .containermp h4 {
+        font-size: small;
+    }
+    
+    .imgh {
+        width: 300px;
+    }
+    
+    .containerh {
+        width: 300px;
+    }
+
+    .cardh {
+        width: 300px;
+    }
+
+    .carda {
+        width: 300px;
+    }
+    
+    .carda img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    
+    .tinfo p {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
 }
