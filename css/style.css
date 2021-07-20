@@ -117,13 +117,18 @@ form input:focus {
 }
 
 .filtre {
-    display: block;
+    display: inline-block;
     width: 100%;
     padding-bottom: 20px;
 }
 
+.filtreflex {
+    display: inline-block;
+}
+
 .filtre i {
     color: #0065FC;
+    margin-bottom: 5px;
 }
 
 .ifiltre {
@@ -197,7 +202,6 @@ form input:focus {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: start;
-    align-items: auto;
     align-content: start
 }
 
@@ -372,6 +376,10 @@ form input:focus {
     width: 100%;
     height: 180px;
     object-fit: cover;
+}
+
+.imga {
+    border-radius: 15px 15px 0 0;
 }
 
 .carda {
@@ -552,8 +560,7 @@ footer{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-around;
-        align-items: auto;
+        justify-content: space-between;
         align-content: start;
         margin-top: 20px;
     }
