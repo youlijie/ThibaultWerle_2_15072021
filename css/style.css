@@ -108,6 +108,10 @@ form input:focus {
     text-decoration: none;
 }
 
+.searchi {
+    display: none;
+}
+
 .pfiltre {
     display: inline-block;
     margin-right: 30px;
@@ -244,7 +248,7 @@ form input:focus {
 }
 
 .iconmp {
-    margin-left: 170px;
+    margin-left: 30%;
 }
 
 .placecardmp {
@@ -268,7 +272,9 @@ form input:focus {
 
 .cardmpa {
     margin-top: 20px;
-    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
 }
 
 .imgmp {
@@ -461,6 +467,33 @@ footer{
     color: black;
 }
 
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+    
+    header {
+        font-size: larger;
+    }
+    
+    .placecard {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: start;
+        align-content: start;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    
+    .cardh {
+        width: 200px;
+    }
+
+    .imgh {
+        width: 200px;
+    }
+}
+
 @media screen and (max-width: 1208px) {
     
     header, main {
@@ -478,10 +511,11 @@ footer{
         width: 100%;
         height: 550px;
     }
+
     
     .mpopular {
         width: 100%;
-        height: 250px;
+        height: 400px;
         margin-left: 0px;
         margin-bottom: 40px;
     }
@@ -507,16 +541,18 @@ footer{
 
     .placecardmp {
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-content: space-around;
     }
 
     .cardmp {
-        width: 600px;
+        width: 550px;
+        margin: 20px;
     }
 
     .cardmpa {
-        margin-top: 110px;
+        margin: 10px;
+        width: 600px;
     }
     
     .imgmp {
@@ -729,6 +765,21 @@ footer{
     .activitypic {
         margin-right: 0px;
     }
+
+    .cardmpa {
+        width: 550px;
+    }
+        
+    .cardmp {
+        width: 400px;
+        height: 150px;
+        margin-left: 100px;
+    }
+
+    .imgmp {
+        max-width: 40%;
+        height: 150px;
+    }
 }
 
 @media screen and (max-width: 517px) {
@@ -739,6 +790,7 @@ footer{
     
     .cardmp {
         width: 300px;
+        margin-left: 150px;
     }
 
     .imgmp {
@@ -774,13 +826,35 @@ footer{
     }
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 411px) {
     
-    .tinfo p {
-        display: inline-block;
+    .tinfo p, .tinfo i {
+        display: inline;
     }
 }
 
 @media screen and (max-width: 375px) {
     
+    form {
+        text-align: center;
+    }
+    
+    .recherche {
+        display: none;
+    }
+
+    .searchi {
+        display: inline;
+        background-color: #0065FC;
+        border: 1px solid rgb(255, 255, 255);
+        padding-left: 10px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-right: 12px;
+        border-radius: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: smaller;
+        text-decoration: none;
+    }
 }
