@@ -483,6 +483,17 @@ footer{
     }
 }
 
+@media screen and (max-width: 1920px) and (min-width: 1578px) {
+
+    .cardh {
+        width: 300px;
+    }
+
+    .imgh {
+        width: 300px;
+    }   
+}
+
 @media screen and (max-width: 1260px) {
     
     .cardh {
@@ -515,7 +526,7 @@ footer{
     
     .mpopular {
         width: 100%;
-        height: 400px;
+        height: 300px;
         margin-left: 0px;
         margin-bottom: 40px;
     }
@@ -691,6 +702,7 @@ footer{
     
     .mpopular {
         width: auto;
+        height: auto;
     }
 
     .placecardmp {
@@ -713,6 +725,28 @@ footer{
         margin: 20px;
     }
 }
+
+@media screen and (max-width: 643px) {
+    
+    .activitypic {
+        margin-right: 0px;
+    }
+
+    .cardmpa {
+        width: auto;
+    }
+        
+    .cardmp {
+        width: 400px;
+        height: 150px;
+    }
+
+    .imgmp {
+        max-width: 40%;
+        height: 150px;
+    }
+}
+
 @media screen and (max-width: 623px) {
     
     .topnav {
@@ -760,28 +794,6 @@ footer{
     }
 }
 
-@media screen and (max-width: 643px) {
-    
-    .activitypic {
-        margin-right: 0px;
-    }
-
-    .cardmpa {
-        width: 550px;
-    }
-        
-    .cardmp {
-        width: 400px;
-        height: 150px;
-        margin-left: 100px;
-    }
-
-    .imgmp {
-        max-width: 40%;
-        height: 150px;
-    }
-}
-
 @media screen and (max-width: 517px) {
     
     header  {
@@ -789,8 +801,7 @@ footer{
     }
     
     .cardmp {
-        width: 300px;
-        margin-left: 150px;
+        width: auto;
     }
 
     .imgmp {
@@ -856,5 +867,34 @@ footer{
         font-weight: bold;
         font-size: smaller;
         text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 328px) {
+
+    .cardmp {
+        height: auto;
+    }
+
+    .cardmpa {
+        margin: auto;
+    }
+
+    .containermp {
+        margin: auto;
+    }
+    
+    .containermp h4 {
+        font-size: small;
+    }
+
+    .tline {
+    }
+}
+
+@media screen and (max-width: 308px) {
+
+    .containermp h4 {
+        font-size: x-small;
     }
 }
