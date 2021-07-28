@@ -189,8 +189,8 @@ form input:focus {
 
 .place {
     background-color: #F2F2F2;
-    width: 65%;
-    height: 550px;
+    width: 70%;
+    height: 580px;
     border-radius: 15px;
 }
 
@@ -217,13 +217,13 @@ form input:focus {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    width: 230px;
+    width: 250px;
     flex: 0 0 auto;
 }
   
 .imgh {
     border-radius: 15px 15px 0 0;
-    width: 230px;
+    width: 250px;
     height: 100px;
     object-fit: cover;
 }
@@ -235,20 +235,29 @@ form input:focus {
 
 .containerh h4, p {
     margin: 0px;
+    color: black;
+    font-size: medium;
     padding-top: 5px;
 }
 
 .mpopular {
     background-color: #F2F2F2;
     border-radius: 15px;
-    width: 35%;
-    height: 550px;
+    width: 30%;
+    height: 580px;
     margin-left: 40px;
     margin-right: 40px;
 }
 
+.titlemp {
+    position: relative;
+    margin-bottom: 14px;
+}
+
 .iconmp {
-    margin-left: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
 }
 
 .placecardmp {
@@ -264,45 +273,44 @@ form input:focus {
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 320px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .cardmpa {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 320px;
 }
 
 .imgmp {
     border-radius: 15px 0 0 15px;
-    width: 115px;
-    height: 132px;
+    width: 120px;
+    height: 140px;
     object-fit: cover;
 }
 
 .containermp {
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 10px;
+    position: relative;
 }
 
 .containermp h4 {
-    margin: 10px 0 5px 0;
+    margin: 15px 10px 2.5px 0;
+    overflow-wrap: break-word;
+    font-size: 16px;
 }
 
-.oline {
-    margin-bottom: 50px;
-}
-
-.tline {
-    margin-bottom: 35px;
-}
-
-.rating {
+.containermp .rating {
     color: #0065FC;
-    padding-bottom: 5px;
+    position: absolute;
+    bottom: 8px;
+}
+
+.containerh .rating {
+    color: #0065FC;
 }
 
 .mainsite {
@@ -486,18 +494,30 @@ footer{
 @media screen and (max-width: 1920px) and (min-width: 1578px) {
 
     .cardh {
-        width: 300px;
+        width: 340px;
     }
 
     .imgh {
-        width: 300px;
-    }   
+        width: 340px;
+    }
+    
+    .cardmp {
+        width: 400px;
+    }
+
+    .cardmpa {
+        width: 400px;
+    }
+
+    .imgmp {
+        height: 140px;
+    }
 }
 
 @media screen and (max-width: 1260px) {
     
-    .cardh {
-        width: 200px;
+    .cardmp {
+        width: 400px;
     }
 
     .imgh {
@@ -809,11 +829,11 @@ footer{
     }
 
     .containermp {
-        margin: auto;
+        margin: 10px;
     }
 
     .containermp h4 {
-        font-size: small;
+        font-size: medium;
     }
     
     .imgh {
@@ -834,6 +854,12 @@ footer{
     
     .carda img {
         width: 300px;
+    }
+
+    .iconmp {
+        position: absolute;
+        bottom: 0;
+        right: 30px;
     }
 }
 
