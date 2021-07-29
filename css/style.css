@@ -319,6 +319,8 @@ form input:focus {
 
 .activity h1 {
     padding-top: 40px;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .activitypic {
@@ -517,11 +519,80 @@ footer{
 @media screen and (max-width: 1260px) {
     
     .cardmp {
-        width: 400px;
+        width: 280px;
+    }
+
+    .cardh {
+        width: 300px;
     }
 
     .imgh {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1125px)  {
+    
+    .mpopular {
+        width: 100%;
+        height: 280px;
+        margin-bottom: 40px;
+    }
+
+    .cardmp {
+        width: 260px;
+        height: 120px;
+    }
+
+    .containermp {
+        height: 120px;
+    }
+
+    .imgmp {
+        width: 100px;
+        height: 120px;
+    }
+
+    .cardmpa {
+        margin-left: 65px;
+        margin-right: 65px;
         width: 200px;
+        height: 100px;
+    }
+
+    .cardh {
+        width: 290px;
+    }
+
+    .imgh {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cardmp {
+        width: 270px;
+        height: 120px;
+    }
+
+    .containermp {
+        height: 120px;
+    }
+
+    .imgmp {
+        width: 100px;
+        height: 120px;
+    }
+
+    .cardmpa {
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 180px;
+        height: 100px;
+    }
+
+    .placecardmp {
+        width: 100%;
     }
 }
 
@@ -550,22 +621,47 @@ footer{
         margin-left: 0px;
         margin-bottom: 40px;
     }
+
+    .cardh {
+        width: 250px;
+    }
+
+    .imgh {
+        width: 250px;
+    }
 }
 
-@media screen and (max-width: 1125px)  {
+@media screen and (max-width: 992px) {
+    .cardh {
+        width: 260px;
+    }
+
+    .imgh {
+        width: 260px;
+    }
+
+    .cardmpa {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
     
-    .mpopular {
-        width: 100%;
-        height: 400px;
-        margin-left: 0px;
-        margin-bottom: 40px;
+    .cardmp {
+        width: 280px;
+    }
+
+    .cardmpa {
+        width: 280px;
+    }
+
+    .imgmp {
+        height: 120px;
     }
 }
 
 @media screen and (max-width: 782px) {
     
     .mpopular {
-        height: 900px;
+        height: 700px;
         margin-left: 0px;
         margin-bottom: 40px;
     }
@@ -577,22 +673,24 @@ footer{
     }
 
     .cardmp {
-        width: 550px;
+        width: 580px;
         margin: 20px;
+        height: 150px;
     }
 
     .cardmpa {
-        margin: 10px;
+        margin-bottom: 80px;
         width: 600px;
     }
     
     .imgmp {
         width: 40%;
-        height: 220px;
+        height: 150px;
+        margin-bottom: 40px;
     }
 
-    .containermp {
-        margin: 40px
+    .place {
+        height: 800px;
     }
     
     .flexfooter1 {
@@ -710,8 +808,9 @@ footer{
     }
 
     .mpopular {
-        width: 697px;
-        height: 900px;
+        width: 100%;
+        height: 700px;
+        border-radius: 0px;
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 40px;
@@ -861,6 +960,18 @@ footer{
         bottom: 0;
         right: 30px;
     }
+
+    .titlecont {
+        margin-left: 15px;
+    }
+
+    .mpopular {
+        height: 700px;
+    }
+
+    .activity h1 {
+        margin-left: 15px;
+    }
 }
 
 @media screen and (max-width: 411px) {
@@ -897,21 +1008,10 @@ footer{
 }
 
 @media screen and (max-width: 328px) {
-
-    .cardmp {
-        height: auto;
-    }
-
-    .cardmpa {
-        margin: auto;
-    }
-
-    .containermp {
-        margin: auto;
-    }
     
     .containermp h4 {
         font-size: small;
+        margin-top: 0px;
     }
 }
 
