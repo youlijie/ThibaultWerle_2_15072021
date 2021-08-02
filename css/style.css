@@ -974,6 +974,13 @@ footer{
     }
 }
 
+@media screen and (max-width: 488px) {
+    
+    .filtreflex {
+        margin-right: 50px;
+    }
+}
+
 @media screen and (max-width: 411px) {
     
     .tinfo p, .tinfo i {
