@@ -535,71 +535,17 @@ footer{
     .imgh {
         width: 300px;
     }
-}
 
-@media screen and (max-width: 1125px)  {
-    
+    .place {
+        height: 700px;
+    }
+
     .mpopular {
-        width: 100%;
-        height: 280px;
-        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        height: 700px;
     }
 
-    .cardmp {
-        width: 260px;
-        height: 120px;
-    }
-
-    .containermp {
-        height: 120px;
-    }
-
-    .imgmp {
-        width: 100px;
-        height: 120px;
-    }
-
-    .cardmpa {
-        margin-left: 65px;
-        margin-right: 65px;
-        width: 200px;
-        height: 100px;
-    }
-
-    .cardh {
-        width: 290px;
-    }
-
-    .imgh {
-        width: 290px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .cardmp {
-        width: 270px;
-        height: 120px;
-    }
-
-    .containermp {
-        height: 120px;
-    }
-
-    .imgmp {
-        width: 100px;
-        height: 120px;
-    }
-
-    .cardmpa {
-        margin-left: 60px;
-        margin-right: 60px;
-        width: 180px;
-        height: 100px;
-    }
-
-    .placecardmp {
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 1208px) {
@@ -637,6 +583,83 @@ footer{
     }
 }
 
+@media screen and (max-width: 1125px)  {
+
+    .placecardmp {
+        width: auto;
+    }
+    
+    .mpopular {
+        width: 100%;
+        height: 280px;
+        margin-bottom: 40px;
+    }
+
+    .cardmp {
+        width: 260px;
+        height: 120px;
+    }
+
+    .containermp {
+        height: 120px;
+    }
+
+    .imgmp {
+        width: 100px;
+        height: 120px;
+    }
+
+    .cardmpa {
+        margin-left: 65px;
+        margin-right: 65px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .cardh {
+        width: 290px;
+    }
+
+    .imgh {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    .placecardmp {
+        width: auto;
+    }
+
+    .cardmpa {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cardmp {
+        width: 270px;
+        height: 120px;
+    }
+
+    .containermp {
+        height: 120px;
+    }
+
+    .imgmp {
+        width: 100px;
+        height: 120px;
+    }
+
+    .cardmpa {
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 180px;
+        height: 100px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .cardh {
         width: 260px;
@@ -661,6 +684,45 @@ footer{
 
     .imgmp {
         height: 120px;
+    }
+}
+
+@media screen and (max-width: 972px) {
+
+    .mpopular {
+        height: 380px;
+    }
+    
+    .placecardmp {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .cardmp {
+        margin-top: 10px;
+    }
+
+    .cardmpa {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .cardmpa {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    .place {
+        height: 700px;
     }
 }
 
