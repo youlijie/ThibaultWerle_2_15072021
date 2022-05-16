@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0%;
 }
+
+
 
 header, main {
     margin-left: 40px;
@@ -29,12 +33,14 @@ p {
 }
 
 .nava {
-    margin: 30px 60px 10px 10px;
+    margin: 0px 60px 10px 10px;
+    padding-top: 20px;
 }
 
 .heb {
     text-decoration: none;
     color: black;
+    border-top: 1px solid white;
 }
 
 .heb:hover {
